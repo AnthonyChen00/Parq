@@ -1,8 +1,13 @@
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './Components/Header'
+import Footer from './Components/Footer'
 
 function App() {
   return (
     <div> 
+      <Header/>
+      <Footer/>
     </div>
   );
 }
