@@ -7,24 +7,21 @@ import Button from 'react-bootstrap/Button';
 
 function Home(){
     return(
-        <div>
             <div className="container-fluid imagebox">
                 <Image src={homephoto} fluid/>
                 <div className="title">
                     <h1>Parq</h1>
                     <h2 className="">Parking made easy</h2>
                 </div>
+                <Form>
+                    <Form.Row>
+                        <Form.Group controlId="address">
+                            <Form.Label>Address</Form.Label>
+                            <Form.Control type="email" placeholder="Enter Address" />
+                        </Form.Group>
+                    </Form.Row>
+                </Form>
             </div>
-            <form>
-                <Form.Group controlId="address">
-                    <Form.Label>Address</Form.Label>
-                    <Form.Control type="address" placeholder="Enter address"/>
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
-            </form>
-        </div>
     )
 }
 

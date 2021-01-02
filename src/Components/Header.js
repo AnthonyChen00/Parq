@@ -10,10 +10,10 @@ function Header() {
     //Header
     return (
         <div>
-            <Navbar bg="light" variant="light">
+            <Navbar bg="light" variant="light" fixed="top">
                 <Navbar.Brand href="/">Parq</Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav.Link href="/Locate" className="text-muted">Locate</Nav.Link>
+                    <Nav.Link href="/Locate" className="text-muted">Map beta</Nav.Link>
                     <Nav.Link href="/About" className="text-muted">About</Nav.Link>
                 </Navbar.Collapse>
             </Navbar>
