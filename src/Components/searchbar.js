@@ -21,9 +21,9 @@ function Searchbar(props){
 
     return(
         <div>
-            <Form inline className="justify-content-center" onSubmit={handleSubmit(onSubmit)}>
+            <Form inline onSubmit={handleSubmit(onSubmit)}>
                 <Form.Group controlId="address">
-                    <Form.Control name="addressValue" size="lg" htmlSize="50" type="text" placeholder="Enter Address" ref={register}/>
+                    <Form.Control name="addressValue" size={props.size} htmlSize="50" type="text" placeholder={props.placeHolder} defaultValue={props.defaultValue} ref={register}/>
                 </Form.Group>
             </Form>
         </div>
