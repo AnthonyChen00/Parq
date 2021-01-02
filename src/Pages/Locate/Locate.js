@@ -3,9 +3,9 @@ import "./Locate.css"
 
 function Locate(props){
     return(
-        <div className>
-            {props.searchTerm && 
-                <span className="text-center view">{props.searchTerm}</span>
+        <div className="view">
+            {props.location.state.address && 
+                <span className="text-center">{props.location.state.address}</span>
             }
             {/* <searchResults/> */}
             <MapContainer/>
