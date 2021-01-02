@@ -4,7 +4,7 @@ import {Nav} from 'react-bootstrap';
 import {Switch, Route} from 'react-router-dom';
 import Home from "../Pages/Home/Home";
 import About from "../Pages/About";
-import Locate from "../Pages/Locate";
+import Locate from "../Pages/Locate/Locate";
 
 function Header() {
     //Header
