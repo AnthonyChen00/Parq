@@ -6,11 +6,23 @@
 
 .title{
     position:absolute;
-    top:45%;
+    top:30%;
     color: aliceblue;
     font-size: 50rem;
     text-align: center;
     left:0;
     right:0;
     letter-spacing: 3px;
+}
+
+.searchTest{
+    font-size: 1.2rem;
+    color:aliceblue;
+}
+
+.searchbar{
+    position: absolute;
+    top:60%;
+    left:0;
+    right:0;
 }
