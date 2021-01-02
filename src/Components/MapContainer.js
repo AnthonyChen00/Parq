@@ -28,24 +28,27 @@ export class MapContainer extends Component{
 
     render(){
         return(
-            <CurrentLocation 
+            <div>
+                <CurrentLocation 
                 centerAroundCurrentLocation
                 google={this.props.google}
-            >
-            <Marker
-                onClick={this.onMarkerClick}
-                name={'Current Location'}
-            />
-            <InfoWindow
-                marker={this.state.activeMarker}
-                visible={this.state.showingInfoWindow}
-                onClose={this.onClose}
                 >
-                <div>
-                    <h6>{this.state.selectedPlace.name}</h6>
-                </div>
-            </InfoWindow>
-            </CurrentLocation>
+                <Marker
+                    onClick={this.onMarkerClick}
+                    name={'Current Location'}
+                />
+                <InfoWindow
+                    marker={this.state.activeMarker}
+                    visible={this.state.showingInfoWindow}
+                    onClose={this.onClose}
+                    >
+                    <div>
+                        <h6>{this.state.selectedPlace.name}</h6>
+                    </div>
+                </InfoWindow>
+                </CurrentLocation>
+            </div>
+            
         );
     }
 }
