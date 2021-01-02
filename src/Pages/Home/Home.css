@@ -1,0 +1,16 @@
+.imagebox{
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.title{
+    position:absolute;
+    top:45%;
+    color: aliceblue;
+    font-size: 50rem;
+    text-align: center;
+    left:0;
+    right:0;
+    letter-spacing: 3px;
+}
