@@ -1,3 +1,16 @@
 .view{
     padding-top: 56px;
 }
+
+html,body{
+    min-height: 100%;
+    
+}
+
+.results{
+    height: 50rem;
+}
+
+.list{
+    height: calc(100vh - 56px);
+}
