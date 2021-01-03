@@ -5,8 +5,6 @@ import Searchbar from '../Components/searchbar'
 // import {Nav} from 'react-bootstrap';
 
 function locateHeader(props) {
-    //Header
-    console.log(props)
     return (
         <div>
             <Navbar bg="light" variant="light" fixed="top">
