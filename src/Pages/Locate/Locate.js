@@ -27,8 +27,9 @@ function Locate(props){
                     <div className="col-9 pl-0">
                         <MapContainer/>
                     </div>
-                    <div className="col-3 list">
-                        <SearchResults/>
+                    <div className="card col-3 list">
+                            <SearchResults/>
+                        
                     </div>
                 </div>
             </div>

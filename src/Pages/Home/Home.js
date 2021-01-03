@@ -3,7 +3,7 @@ import homephoto from '../../Assets/homephoto.jpg'
 import './Home.css';
 import Image from 'react-bootstrap/Image';
 import Footer from '../../Components/Footer';
-import Searchbar from '../../Components/searchbar';
+import Search from '../../Components/searchbar';
 
 function Home(){
     return(
@@ -14,8 +14,8 @@ function Home(){
                         <h1>Parq</h1>
                         <h2>Parking made easy</h2>
                     </div>
-                    <div className="d-flex justify-content-center searchbar">
-                        <Searchbar size="lg" placeHolder="Enter Address"/>
+                    <div className="searchbar">
+                        <Search  placeHolder="Enter Address"/>
                     </div>
                 </div>
                 <Footer/> 

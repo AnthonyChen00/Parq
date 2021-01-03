@@ -23,6 +23,8 @@
 .searchbar{
     position: absolute;
     text-align: center;
+    margin-left: 25%;
+    width:50%;
     top:60%;
     left:0;
     right:0;
