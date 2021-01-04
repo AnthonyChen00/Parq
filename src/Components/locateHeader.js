@@ -2,10 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Searchbar from '../Components/searchbar'
 
-// import {Nav} from 'react-bootstrap';
-
 function locateHeader(props) {
-    console.log(props)
     return (
         <div>
             <Navbar bg="light" variant="light" fixed="top">
